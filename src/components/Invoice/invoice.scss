@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+.invoice__card {
+  background: #ffffff;
+  box-shadow: 0px 10px 10px -10px rgba(72, 84, 159, 0.100397);
+  border-radius: 8px;
+  width: 730px;
+  height: 72px;
+  margin: 20px 0;
+  .invoice__detail__container {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    & div {
+      width: 128px;
+    }
+    & .invoice__id {
+      width: 80px;
+    }
+  }
+  .invoice__id {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 15px;
+
+    /* identical to box height, or 125% */
+    letter-spacing: -0.25px;
+
+    color: #7e88c3;
+    & span {
+      color: black;
+    }
+  }
+  .invoice__date {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    /* identical to box height, or 125% */
+    letter-spacing: -0.25px;
+    color: #888eb0;
+  }
+  .invoice__name {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+
+    /* identical to box height, or 125% */
+    letter-spacing: -0.25px;
+
+    color: #858bb2;
+  }
+  .invoice__amount {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+
+    /* identical to box height, or 150% */
+    text-align: left;
+    letter-spacing: -0.8px;
+
+    color: #0c0e16;
+  }
+  .invoice__status {
+    background: #33d6a021;
+    mix-blend-mode: normal;
+    padding: 13px;
+    border-radius: 6px;
+    li {
+      font-family: Spartan;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 15px;
+
+      /* identical to box height, or 125% */
+      letter-spacing: -0.25px;
+
+      color: #33d69f;
+    }
+  }
+  .invoice__btn {
+    color: #7c5dfa;
+    background: none;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+  }
+}

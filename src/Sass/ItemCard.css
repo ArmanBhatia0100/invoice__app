@@ -1,0 +1,20 @@
+.item_card_container {
+  width: 570px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.item_card_container h2 {
+  font-family: Spartan;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  margin-bottom: 12px;
+  text-align: center;
+}
